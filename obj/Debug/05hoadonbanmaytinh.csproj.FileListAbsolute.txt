@@ -8,3 +8,13 @@ C:\Users\Ad\source\repos\05hoadonbanmaytinh\bin\Debug\05hoadonbanmaytinh.exe
 C:\Users\Ad\source\repos\05hoadonbanmaytinh\bin\Debug\05hoadonbanmaytinh.pdb
 C:\Users\Ad\source\repos\05hoadonbanmaytinh\obj\Debug\05hoadonbanmaytinh.exe
 C:\Users\Ad\source\repos\05hoadonbanmaytinh\obj\Debug\05hoadonbanmaytinh.pdb
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\bin\Debug\05hoadonbanmaytinh.exe.config
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\bin\Debug\05hoadonbanmaytinh.exe
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\bin\Debug\05hoadonbanmaytinh.pdb
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\05hoadonbanmaytinh.csproj.AssemblyReference.cache
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\_05hoadonbanmaytinh.Form1.resources
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\_05hoadonbanmaytinh.Properties.Resources.resources
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\05hoadonbanmaytinh.csproj.GenerateResource.cache
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\05hoadonbanmaytinh.csproj.CoreCompileInputs.cache
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\05hoadonbanmaytinh.exe
+C:\Users\phuon\source\repos\New folder\05hoadonmaytinh\obj\Debug\05hoadonbanmaytinh.pdb

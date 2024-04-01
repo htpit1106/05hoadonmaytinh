@@ -56,9 +56,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(37, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(28, 9);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(141, 90);
+            this.pictureBox1.Size = new System.Drawing.Size(106, 73);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -71,19 +72,22 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 193);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 157);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(672, 209);
+            this.dataGridView1.Size = new System.Drawing.Size(504, 170);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // btt_them
             // 
             this.btt_them.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btt_them.Location = new System.Drawing.Point(115, 408);
+            this.btt_them.Location = new System.Drawing.Point(86, 332);
+            this.btt_them.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btt_them.Name = "btt_them";
-            this.btt_them.Size = new System.Drawing.Size(75, 23);
+            this.btt_them.Size = new System.Drawing.Size(56, 19);
             this.btt_them.TabIndex = 2;
             this.btt_them.Text = "Thêm";
             this.btt_them.UseVisualStyleBackColor = true;
@@ -92,9 +96,10 @@
             // btt_sua
             // 
             this.btt_sua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btt_sua.Location = new System.Drawing.Point(252, 408);
+            this.btt_sua.Location = new System.Drawing.Point(189, 332);
+            this.btt_sua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btt_sua.Name = "btt_sua";
-            this.btt_sua.Size = new System.Drawing.Size(75, 23);
+            this.btt_sua.Size = new System.Drawing.Size(56, 19);
             this.btt_sua.TabIndex = 3;
             this.btt_sua.Text = "Sửa";
             this.btt_sua.UseVisualStyleBackColor = true;
@@ -103,20 +108,23 @@
             // btt_xoa
             // 
             this.btt_xoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btt_xoa.Location = new System.Drawing.Point(384, 408);
+            this.btt_xoa.Location = new System.Drawing.Point(288, 332);
+            this.btt_xoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btt_xoa.Name = "btt_xoa";
-            this.btt_xoa.Size = new System.Drawing.Size(75, 23);
+            this.btt_xoa.Size = new System.Drawing.Size(56, 19);
             this.btt_xoa.TabIndex = 4;
             this.btt_xoa.Text = "Xóa";
             this.btt_xoa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btt_xoa.UseVisualStyleBackColor = true;
+            this.btt_xoa.Click += new System.EventHandler(this.btt_xoa_Click);
             // 
             // btt_dong
             // 
             this.btt_dong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btt_dong.Location = new System.Drawing.Point(495, 408);
+            this.btt_dong.Location = new System.Drawing.Point(371, 332);
+            this.btt_dong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btt_dong.Name = "btt_dong";
-            this.btt_dong.Size = new System.Drawing.Size(75, 23);
+            this.btt_dong.Size = new System.Drawing.Size(56, 19);
             this.btt_dong.TabIndex = 5;
             this.btt_dong.Text = "Đóng";
             this.btt_dong.UseVisualStyleBackColor = true;
@@ -125,36 +133,40 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 119);
+            this.label1.Location = new System.Drawing.Point(17, 97);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 16);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Loại máy";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 154);
+            this.label2.Location = new System.Drawing.Point(17, 125);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 16);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Đơn giá";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(339, 11);
+            this.label3.Location = new System.Drawing.Point(254, 9);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "Mã HD";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(339, 50);
+            this.label4.Location = new System.Drawing.Point(254, 41);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 16);
+            this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "Tên KH";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -162,9 +174,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(339, 85);
+            this.label5.Location = new System.Drawing.Point(254, 69);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 16);
+            this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Ngày bán";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -172,56 +185,64 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(339, 119);
+            this.label6.Location = new System.Drawing.Point(254, 97);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 16);
+            this.label6.Size = new System.Drawing.Size(48, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Tên máy";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(339, 154);
+            this.label7.Location = new System.Drawing.Point(254, 125);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 16);
+            this.label7.Size = new System.Drawing.Size(49, 13);
             this.label7.TabIndex = 12;
             this.label7.Text = "Số lượng";
             // 
             // tb_mahoadon
             // 
-            this.tb_mahoadon.Location = new System.Drawing.Point(405, 8);
+            this.tb_mahoadon.Location = new System.Drawing.Point(304, 6);
+            this.tb_mahoadon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tb_mahoadon.Name = "tb_mahoadon";
-            this.tb_mahoadon.Size = new System.Drawing.Size(165, 22);
+            this.tb_mahoadon.Size = new System.Drawing.Size(125, 20);
             this.tb_mahoadon.TabIndex = 13;
             // 
             // tb_tenKH
             // 
-            this.tb_tenKH.Location = new System.Drawing.Point(405, 47);
+            this.tb_tenKH.Location = new System.Drawing.Point(304, 38);
+            this.tb_tenKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tb_tenKH.Name = "tb_tenKH";
-            this.tb_tenKH.Size = new System.Drawing.Size(221, 22);
+            this.tb_tenKH.Size = new System.Drawing.Size(167, 20);
             this.tb_tenKH.TabIndex = 14;
             // 
             // tb_tenmay
             // 
-            this.tb_tenmay.Location = new System.Drawing.Point(405, 116);
+            this.tb_tenmay.Location = new System.Drawing.Point(304, 94);
+            this.tb_tenmay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tb_tenmay.Name = "tb_tenmay";
-            this.tb_tenmay.Size = new System.Drawing.Size(221, 22);
+            this.tb_tenmay.Size = new System.Drawing.Size(167, 20);
             this.tb_tenmay.TabIndex = 15;
             // 
             // tb_dongia
             // 
-            this.tb_dongia.Location = new System.Drawing.Point(87, 148);
+            this.tb_dongia.Location = new System.Drawing.Point(65, 120);
+            this.tb_dongia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tb_dongia.Name = "tb_dongia";
-            this.tb_dongia.Size = new System.Drawing.Size(165, 22);
+            this.tb_dongia.Size = new System.Drawing.Size(125, 20);
             this.tb_dongia.TabIndex = 16;
             this.tb_dongia.Leave += new System.EventHandler(this.tb_dongia_Leave);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(87, 117);
+            this.radioButton1.Checked = true;
+            this.radioButton1.Location = new System.Drawing.Point(65, 95);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(71, 20);
+            this.radioButton1.Size = new System.Drawing.Size(60, 17);
             this.radioButton1.TabIndex = 17;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Để bàn";
@@ -231,9 +252,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(186, 116);
+            this.radioButton2.Location = new System.Drawing.Point(140, 94);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(79, 20);
+            this.radioButton2.Size = new System.Drawing.Size(67, 17);
             this.radioButton2.TabIndex = 18;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Xách tay";
@@ -242,25 +264,27 @@
             // 
             // num_soluong
             // 
-            this.num_soluong.Location = new System.Drawing.Point(405, 149);
+            this.num_soluong.Location = new System.Drawing.Point(304, 121);
+            this.num_soluong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.num_soluong.Name = "num_soluong";
-            this.num_soluong.Size = new System.Drawing.Size(82, 22);
+            this.num_soluong.Size = new System.Drawing.Size(62, 20);
             this.num_soluong.TabIndex = 19;
             // 
             // ngayban
             // 
             this.ngayban.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.ngayban.Location = new System.Drawing.Point(405, 80);
+            this.ngayban.Location = new System.Drawing.Point(304, 65);
+            this.ngayban.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ngayban.Name = "ngayban";
-            this.ngayban.Size = new System.Drawing.Size(165, 22);
+            this.ngayban.Size = new System.Drawing.Size(125, 20);
             this.ngayban.TabIndex = 20;
             // 
             // Form1
             // 
             this.AcceptButton = this.btt_them;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(696, 443);
+            this.ClientSize = new System.Drawing.Size(522, 360);
             this.Controls.Add(this.ngayban);
             this.Controls.Add(this.num_soluong);
             this.Controls.Add(this.radioButton2);
@@ -282,6 +306,7 @@
             this.Controls.Add(this.btt_them);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hóa đơn bán máy tính(hoangthiphuonng)";
